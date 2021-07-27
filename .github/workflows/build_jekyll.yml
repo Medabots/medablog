@@ -15,7 +15,7 @@ jobs:
       - name: Build
         run: | # TODO: Make baseurl configureable
           mkdir .jekyll-cache build
-          bundle exec jekyll build --baseurl="medablog/" -d build
+          bundle exec jekyll build -d build
 
       - name: Deploy
         run: | # TODO: Make target branch configureable
