@@ -58,6 +58,8 @@ exclude:
 collections:
   authors:
     output: true
+  tags:
+    output: true
 
 defaults:
   - scope:

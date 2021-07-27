@@ -13,7 +13,7 @@ module Tags
       @site = site 
       @base = site.source
       @dir  = 'tags'
-      @basename = tag
+      @basename = Jekyll::Utils::slugify(tag)
       @ext = '.html'
       @name = @basename + @ext
 
